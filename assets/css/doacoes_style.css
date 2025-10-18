@@ -6,10 +6,42 @@
     background-image: url("../imagens/usada_header_gettyimages-1325062494-640x640.jpg");
     height: 250px;
     width: 100%;
+
 }
 
 .header img {
     max-width: 150px; /* ← AJUSTE CONFORME SUA IMAGEM */
-    height: auto;
 }
 
+.main1{
+    background-color: var(--bege-natural);
+    font-size: var(--fonte-corpo)
+}
+
+.titulo_main1{
+    font-size: var(--fonte-secao);
+}
+
+.titulo_main2{
+    font-size: var(--fonte-secao);
+    background-color: var(--verde-claro);
+    height: 100px;
+}
+
+.doacoes{
+    color: var(--branco);
+    height: 238.8px;
+    weight: 187.44px;
+}
+
+#doacao_unica{
+    background-color: var(--verde-principal);
+}
+
+#doacao_recorrente{
+    background-color: var(--marrom-escuro);
+}
+
+#doacao_direcionada{
+    background-color: var(--preto);
+}
