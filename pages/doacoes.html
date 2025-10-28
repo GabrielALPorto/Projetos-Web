@@ -13,24 +13,24 @@
         <img src = "../assets/imagens/result_Design_sem_nome_1_-removebg-preview-artguru.png"
             alt = "Árvore Símbolo do Replate a Floresta!"/>
     </div>
-    <div class="main1">
+    <div class="main2">
         <div class="titulo_main1"><h1>Por Que Doar?</h1></div>
         <h3>Suas doações se transformam em mudas de árvores nativas, 
-        proteção de nascentes e futuro para nossas florestas.<br>
+        proteção de nascentes e futuro para nossas florestas.
         Cada contribuição é um passo concreto na recuperação do que foi perdido.
     </h3>
     </div>
     <div class="titulo_main2"><h2>Opções de Doação</h2></div>
     <section class="doacoes">
-        <div class="box_main2" id="doacao_unica"><h3>Doação Única</h3>
+        <div class="box_main2" id="doacao_unica"><b><h2>Doação Única</h2></b>
             <ul>
-                <b><li>R$ 50 = 10 mudas plantadas</li></b>
+                <li>R$ 50 = 10 mudas plantadas</li>
                 <li>R$ 100 = 20 mudas + manutenção por 1 ano</li>
                 <li>R$ 250 = Área adotada com placa comemorativa</li>
             </ul>
         </div>
         <div class="box_main2" id="doacao_recorrente">
-            <b><h3>Doação Recorrente (Sócio Reflorestador)</h3></b>
+            <b><h2>Doação Recorrente (Sócio Reflorestador)</h2></b>
             <ul>
                 <li>Mensalidade fixa todo mês</li>
                 <li>Acompanhamento do impacto gerado</li>
@@ -46,13 +46,96 @@
             </ul>
         </div>
     </section>
-    <!-- Posso colocar um local para os inputs!-->
-    <!-- Bônus: Inclua um contador em tempo real mostrando 
-     "Já plantamos X árvores com suas doações" para gerar 
-     confiança e urgência!-->
-    <h2>Como Doar</h2>
-    <h3>Cartão de Crédito</h3>
-    <h3>Transferência Bancária</h3>
-    <h3>Boleto</h3>
+        <div class="titulo_main2"><h2>Como Doar</h2></div>
+        <section class="doacoes">
+            <div class="box_main2" id="doacao_unica">
+                <h3>Cartão de Crédito</h3>
+            </div>
+            <div class="box_main2" id="doacao_recorrente">
+                <h3>Transferência Bancária</h3>
+            </div>
+            <div class="box_main2" id="doacao_direcionada">
+                <h3>Boleto</h3>
+            </div>
+        </section>
+        <li><h3>Benefícios de Ser Voluntário</h3></li>
+        <p><ul>
+            <li>Capacitação em técnicas de reflorestamento</li>
+            <li>Certificado de participação</li>
+            <li>Contato direto com a natureza</li>
+            <li>Integração em uma comunidade engajada</li>
+            <li>Ver o impacto real do seu trabalho</li>
+        </ul></p>
+
+        <li><h3>
+            Cadastre-se!
+        </h3></li>
+    <section class="cadastrar">
+        <form id="form">
+            <!-- Agruamento lógico para identificação-->
+            <fieldset>
+            <legend>Identificação Pessoal</legend>
+            <!-- Input de cadastro de nome-->
+            <label for="nome">Insira o seu nome: </label>
+            <input type="text" class="required" id="nome" name="nome" placeholder="Seu nome" oninput="nameValidate()" 
+            required minlength="3" maxlength="50" pattern="[a-zA-ZÀ-ÿ\s]{3,50}"
+            title="Apenas letras e espaços. Mínimo 3 caracteres e máximo 50"/>
+            <!-- Input de cadastro de CPF-->
+            <label for="CPF">Insira o seu CPF: </label>
+            <input type="number" class="required" id="CPF" name="CPF" placeholder="XXX.XXX.XXX-XX" 
+            required pattern="[0-9]{3}[0-9]{3}[0-9]{3}-[0-9]{2}"
+            title="Insira o CPF no formato XXX.XXX.XXX-XX"/><br>
+            <!-- Input de cadastro de data de nascimento-->
+            <label for="nascimento">Insira a sua data de nascimento: </label>
+            <input type="date" class="required" id="nascimento" name="nascimento" required/><br>
+            </fieldset>
+
+            <!--Agrupamento lógico para endereço + contato -->
+            <fieldset>
+            <legend>Contato e Endereço </legend>
+            <!-- Input de cadastro de email-->
+            <label for="email">Insira o seu email: </label>
+            <input type="email" class="required" id="email" name="email" placeholder="Email" 
+            required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Digite um e-mail válido, ou seja, que possui nome@dominio"/><br>
+            <!-- Input de cadastro de telefone-->
+            <label for="tel">Insira o seu Telefone: </label>
+            <input type="tel" class="required" id="tel" name="tel" placeholder="(XX) XXXXXX-XXXX" 
+            required pattern="(?\([0-9]{2}\)\s?)?[0-9]{4,5}-?[0-9]{4}"
+            title="Insira um telefone no formato (XX) 9XXXX-XXXX"/>
+            <!-- Input de cadastro de CEP-->
+            <label for="CEP">Insira o seu CEP: </label>
+            <input type="number" class="required" id="CEP" name="CEP" placeholder="XXXXX-XXX" 
+            required pattern="[0-9]{5}-?[0-9]{3}"
+            title="Insira o CEP no formato XXXXX-XXX"/><br>
+            </fieldset>
+            <fieldset>
+            <!-- Input de cadastro de habilidades-->
+            <label for="habilidades">Insira as suas habilidades: </label>
+            <input type="text" class="required" id="habilidades" name="habilidades" placeholder="Uma habilidade" 
+            required minlength="3" maxlength="50" pattern="[a-zA-ZÀ-ÿ\s]{3,}"
+            title="Apenas letras e espaços."/>
+            
+            <legend>Disponibilidade</legend>
+
+            <label for="disponibilidade">Disponibilidade</label>
+            <select id="disponibilidade" name="disponibilidade" required>
+                <option value="">Selecione:</option>
+                <option value="finais_semana">Finais de Semana</option>
+                <option value="manhas">Manhãs durante a semana</option>
+                <option value="trades">Tardes durante a semana</option>
+            </select>
+            </fieldset>
+            <!-- 
+            <label for="data-disponivel">Escolha a data e a hora: </label>
+            <input type="datetime-local" id="disponibilidade" name="disponibilidade"/>
+            </fieldset>
+            -->
+            <!-- Botão de submeters-->
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section> 
+
+    <script src="../assets/js/form-validator.js"></script>
 </body>
 </html>

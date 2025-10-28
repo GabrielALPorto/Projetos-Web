@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     /* ← REMOVE MARGIN PADRÃO DO BROWSER */
     margin: 0px;
@@ -27,25 +32,55 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
-.titulo_main2{
+.titulo_main1{
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-}
+ }
+
+.titulo_main2, .titulo_main3{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+ }
 
 .doacoes{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-flow: row wrap;
     flex-direction: row;
-
+    gap: 0px;
 }
 
 .box_main2{
-    width: 30%;
+    width: 33.33%;
     box-sizing: border-box;   
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 30px;
 }
 
+.box_main2 h2{
+    margin-bottom: 1.5rem;
+}
+
+.box_main2 ul{
+    margin-top: 0px;
+}
+
+.box_main3{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.cadastrar{
+    display: flex;
+    align-items: stretch;
+}

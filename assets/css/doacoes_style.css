@@ -22,16 +22,17 @@
     font-size: var(--fonte-secao);
 }
 
-.titulo_main2{
+.titulo_main2, .titulo_main3{
     font-size: var(--fonte-secao);
     background-color: var(--verde-claro);
-    height: 100px;
+    /*height: 100px;*/
 }
 
 .doacoes{
     color: var(--branco);
     height: 238.8px;
-    weight: 187.44px;
+    width: auto;
+    font-size: var(--fonte-corpo);
 }
 
 #doacao_unica{
@@ -44,4 +45,13 @@
 
 #doacao_direcionada{
     background-color: var(--preto);
+}
+
+.box_main2 ul{
+    line-height: var(--espaco-lg);
+    font-size: var(--fonte-secao);
+}
+
+.cadastrar{
+    background-color: var(--bege-natural);
 }
