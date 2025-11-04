@@ -7,6 +7,49 @@ h1, h2, h3, h4, h5, h6, p, ul, li{
     padding: 0px;
 }
 
+main{
+    margin: 20px;
+}    
+
+header{
+    display: flex;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 100vh;
+    border-radius: 0px 18px 18px 0px;
+    position: relative;
+}
+
+#open_btn{
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    cursor: pointer;
+}
+
+.item_description{
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+#sidebar.open-sidebar{
+    min-width: 15%;
+}
+
+.side_item{
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+}
+
 body{
     /* ← REMOVE MARGIN PADRÃO DO BROWSER */
     margin: 0px;
