@@ -1,129 +1,162 @@
-*{
-    box-sizing: border-box;
+    *{
+        box-sizing: border-box;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, ul, li{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header{
+        display: flex;
+    }
+
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+        height: 100vh;
+        border-radius: 0px 18px 18px 0px;
+        position: relative;
+    }
+
+    #open_btn{
+        position: absolute;
+        top: 20px;
+        left: 160px;
+        cursor: pointer;
+    }
+
+    .item_description{
+        width: 0px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 14px;
+    }
+
+    #sidebar.open-sidebar{
+        min-width: 15%;
+    }
+
+    .side_item{
+        border-radius: 8px;
+        padding: 14px;
+        cursor: pointer;
+    }
+
+    body{
+        /* ← REMOVE MARGIN PADRÃO DO BROWSER */
+        margin: 0px;
+        padding: 0px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .header img {
+        max-width: 200px;
+        height: auto;
+        position: relative; 
+    }
+
+    .main1{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .titulo_main1{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 0px, 0px, 40px, 0px;
+        margin-bottom: 40px;
+        gap: 10px;
+    }
+
+    .main2{
+        display: block;
+        height: 300px;        
+        margin: 0px 0px 20px 0px; 
+        padding: 20px;
+    }
+
+    .titulo_main2, .titulo_main3{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 10px 30px 20px 0px;
+        margin-left: 35%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        gap: 10px;
+
+    }
+
+    .doacoes{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-flow: row wrap;
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .box_main2{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        padding-left: 30px;
+        margin: 0 10px
+    }
+
+    .box_main2 h2{
+        margin-bottom: 1.5rem;
+    }
+
+    .box_main2 ul{
+        margin-top: 0px;
+    }
+
+    .box_main3{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-flow: row wrap;
+        flex-direction: row;
+    }
+
+    .cadastrar{
+        display: flex;
+        align-items: stretch;
+    }
+
+.voluntariado{
+    min-height: 400px;
+    margin-top: 100px;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, li{
-    margin: 0px;
-    padding: 0px;
-}
-
-main{
-    margin: 20px;
-}    
-
-header{
-    display: flex;
-}
-
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
-    height: 100vh;
-    border-radius: 0px 18px 18px 0px;
-    position: relative;
-}
-
-#open_btn{
-    position: absolute;
-    top: 20px;
-    left: 160px;
-    cursor: pointer;
-}
-
-.item_description{
-    width: 0px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-size: 14px;
-}
-
-#sidebar.open-sidebar{
-    min-width: 15%;
-}
-
-.side_item{
-    border-radius: 8px;
-    padding: 14px;
-    cursor: pointer;
-}
-
-body{
-    /* ← REMOVE MARGIN PADRÃO DO BROWSER */
-    margin: 0px;
-    padding: 0px;
-}
-.header {
+.titulo_voluntariado{
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.header img {
-    max-width: 200px;
-    height: auto;
-    position: relative; 
-}
-
-.main1{
+.beneficios_voluntariado{
     display: flex;
-    align-items: center;
     align-content: center;
     justify-content: center;
-    flex-direction: column;
-}
-.titulo_main1{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
- }
-
-.titulo_main2, .titulo_main3{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
- }
-
-.doacoes{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-flow: row wrap;
-    flex-direction: row;
-    gap: 0px;
-}
-
-.box_main2{
-    width: 33.33%;
-    box-sizing: border-box;   
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    padding-left: 30px;
-}
-
-.box_main2 h2{
-    margin-bottom: 1.5rem;
-}
-
-.box_main2 ul{
-    margin-top: 0px;
-}
-
-.box_main3{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-flow: row wrap;
-    flex-direction: row;
-}
-
-.cadastrar{
-    display: flex;
-    align-items: stretch;
 }

@@ -12,23 +12,35 @@ body{
 
 }
 
+.main2{
+    border-radius: 10px;
+    font-size: var(--fonte-secao);
+    background-color: var(--verde-claro);
+}
+
 .header img {
     max-width: 150px; /* ← AJUSTE CONFORME SUA IMAGEM */
 }
 
 .main1{
     background-color: var(--bege-natural);
-    font-size: var(--fonte-corpo)
+    font-size: var(--fonte-corpo);
+    
 }
 
 .titulo_main1{
     font-size: var(--fonte-secao);
+    
 }
 
 .titulo_main2, .titulo_main3{
     font-size: var(--fonte-secao);
     background-color: var(--verde-claro);
-    /*height: 100px;*/
+    min-width: 200px;
+    max-width: 400px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .doacoes{
@@ -47,7 +59,12 @@ body{
 }
 
 #doacao_direcionada{
-    background-color: var(--preto);
+    background-color: var(--verde-principal);
+}
+
+.box_main2{
+    width: 30%;
+    border-radius: 10px;
 }
 
 .box_main2 ul{
@@ -57,4 +74,13 @@ body{
 
 .cadastrar{
     background-color: var(--bege-natural);
+}
+
+.voluntariado{
+    background-color: var(--verde-claro);
+}
+
+.titulo_voluntariado{
+    font-size: var(--fonte-subtitulo);
+    min-height: 40px;
 }

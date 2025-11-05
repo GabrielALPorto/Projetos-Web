@@ -16,7 +16,7 @@ body {
 }
 
 #coluna-main1{
-    border: 2px solid var(--marrom-escuro);
+    border: 4px solid var(--marrom-escuro);
     padding: 1rem;
 }
 
@@ -34,10 +34,15 @@ body {
     color: var(--preto);
 }
 
+
 .titulo-destaque {
     color: var(--branco);
     font-size: var(--fonte-secao);
     margin: 0;
+}
+
+.coluna-50, .colunasB2{
+    font-size: var(--fonte-secao);
 }
 
 #main1, .B1, .titulo_projetos, .content-box1 {
@@ -66,12 +71,13 @@ a:link{
 }
 
 #idColunasB2{
-    border: 2px solid var(--verde-principal);
+    border: 4px solid var(--verde-principal);
     padding: 1rem;
 }
 
 .titulo_projetos, .container-box{
     background-color: var(--branco);
+        min-height: 500px;
 }
 
 /* ESPAÇAMENTOS E TAMANHOS */

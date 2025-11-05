@@ -27,14 +27,17 @@
 }
 
 /* SISTEMA DE GRID/COLUNAS */
-.coluna-50 {
+.coluna-50, .colunasB2 {
     width: 50%;
     box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+    min-height: 450px;
+   
 }
 
 .colunasB2 {
     width: 50%;
-    min-height: 300px;
+
 }
 
 #idColunasB2{
@@ -79,6 +82,7 @@
 /* ALINHAMENTOS DE TEXTO */
 .titulo_projetos {
     text-align: center;
+
 }
 
 .content-box1, .content-box2, .content-box3 {
@@ -93,4 +97,8 @@
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.footer{
+    min-height: 400px;
 }
