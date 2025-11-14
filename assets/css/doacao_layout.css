@@ -11,29 +11,37 @@
         display: flex;
     }
 
-    .sidebar{
+    #sidebar{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         background-color: white;
-        height: 100vh;
-        border-radius: 0px 18px 18px 0px;
+        width: 60px;
+        height: 250px;
+        border-radius: 0px 0px 0px 0px;
         position: relative;
+        /*overflow: hidden;*/
+        align-items: center;
+        padding-top: 5px 0px 5px 0px;
     }
 
     #open_btn{
         position: absolute;
         top: 20px;
-        left: 160px;
+        left: 57px;
         cursor: pointer;
+        z-index: 1000;
     }
 
     .item_description{
+        display: none;
         width: 0px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         font-size: 14px;
+        height: 100%;
+        
     }
 
     #sidebar.open-sidebar{
@@ -82,21 +90,25 @@
     }
 
     .main2{
-        display: block;
-        height: 300px;        
-        margin: 0px 0px 20px 0px; 
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 300px;
+        max-height: 400px;        
+        margin: 20px; 
+        padding: 30px 20px;
+        overflow: visible;
     }
 
     .titulo_main2, .titulo_main3{
         display: flex;
+        text-align: center;
         align-items: center;
         align-content: center;
         justify-content: center;
-        padding: 10px 30px 20px 0px;
-        margin-left: 35%;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        flex-wrap: wrap;
+        padding: 20px 0px;
+        margin: 0 auto 30px auto;
         gap: 10px;
 
     }
@@ -107,16 +119,23 @@
         align-items: stretch;
         flex-flow: row wrap;
         flex-direction: row;
-        gap: 0px;
+        gap: 30px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 20px;
     }
 
     .box_main2{
         width: 30%;
+        max-height: 200px;
+        max-width: 350px;
+        min-width: 250px;
         display: flex;
         flex-direction: column;
         padding: 15px;
         padding-left: 30px;
-        margin: 0 10px
+        margin: 10px;
+        flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
     }
 
     .box_main2 h2{
@@ -141,8 +160,9 @@
     }
 
 .voluntariado{
-    min-height: 400px;
+    min-height: 450px;
     margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 .titulo_voluntariado{
@@ -158,5 +178,79 @@
 .beneficios_voluntariado{
     display: flex;
     align-content: center;
+    justify-content: center; 
+}
+
+ol{
+    padding: 0px;
+    margin: 0px;
+    max-width: 300px;
+    position: relative;
+}
+
+ol::before{
+    content: '';
+    width: 0.5rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 8%;
+    background: peachpuff;
+    z-index: -1;
+}
+
+.beneficios_voluntariado li{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1.5rem;
+    background: var(--branco);
+}
+
+ul{
+    line-height: 40px;
+}
+
+.titulo_cadastrar{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+#form{
+    min-height: 200px;
+}
+
+.form_container{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center; 
+    min-height: 400px;
+    max-height: 500px;
+    margin: 30px;
+}
+
+#form{
+    position: relative;
+    min-height: 600;
+    max-height: 700px;
+    min-width: 900px;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.form_button{
+    display: flex;
+    margin: 20px;
+    align-items: center;
     justify-content: center;
 }

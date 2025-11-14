@@ -84,3 +84,11 @@ body{
     font-size: var(--fonte-subtitulo);
     min-height: 40px;
 }
+
+.beneficios_voluntariado{
+    font-size: var(--fonte-secao);
+}
+
+.titulo_cadastrar{
+    font-size: var(--fonte-subtitulo);
+}
