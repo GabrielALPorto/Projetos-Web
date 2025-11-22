@@ -10,6 +10,10 @@
     align-items: center;
     height: 250px;
 }
+.img_header{
+    width: 150px;
+    height: 150px;
+}
 
 #main1, #main2, .B1, .B2 {
     display: flex;
