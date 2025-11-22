@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 /* ESTRUTURAS FLEXBOX */
-.header {
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
