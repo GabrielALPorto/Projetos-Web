@@ -3,7 +3,7 @@ let conteudoMain = document.querySelector(".main_container");
 conteudoMain.innerHTML = `
         <div class="main" id="mainTitle"><h2>O Desmatamento no Brasil</h2></div>
         <div class="main" id="mainContainer">
-            <div class="mainContainer__para" id="coluna-main1"><p>
+            <div class="mainContainer__para"><p>
     Nosso país abriga algumas das florestas mais biodiversas do planeta, mas assistimos diariamente à sua destruição silenciosa.
     O desmatamento avança a taxas alarmantes, consumindo o equivalente a mil campos de futebol por dia. Esta não é apenas uma perda de árvores, mas a erosão de um patrimônio natural insubstituível.<br>
     As consequências são profundas e interligadas: comunidades tradicionais perdem seus meios de subsistência, espécies únicas desaparecem antes mesmo de serem conhecidas pela ciência, e o equilíbrio climático é severamente afetado.

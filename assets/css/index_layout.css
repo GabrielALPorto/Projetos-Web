@@ -15,23 +15,23 @@ header {
     height: 150px;
 }
 
-#main1, #main2, .B1, .B2 {
+#mainTitle, #mainContainer, .B1Container, .refloContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-#main2, .B2 {
+#mainContainer, .refloContainer {
     flex-direction: row;
 }
 
-.B1 {
+.B1Container {
     flex-direction: row;
 }
 
 /* SISTEMA DE GRID/COLUNAS */
-.coluna-50, .colunasB2 {
+.mainContainer__para, .mainContainer__img, . {
     width: 50%;
     box-sizing: border-box;
     margin: 0px 0px 20px 0px;
@@ -39,7 +39,7 @@ header {
    
 }
 
-.colunasB2 {
+.refloContainer__para, .refloContainer__img {
     width: 50%;
 
 }
@@ -65,7 +65,7 @@ header {
 }
 
 /* LAYOUT DE IMAGENS */
-.colunasB2 picture {
+.refloContainer__img picture {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,26 +74,17 @@ header {
     height: 50%;
 }
 
-.colunasB2 img {
-    display: block;
-    margin: 0 auto;
-}
-
-.imagem_quebra {
-    display: flex;
-}
-
 /* ALINHAMENTOS DE TEXTO */
-.titulo_projetos {
+.projetos__flex-box {
     text-align: center;
 
 }
 
-.content-box1, .content-box2, .content-box3 {
+.projetos__elementoUM, .projetos__elementoDois, .projetos__elementoTres {
     text-align: center;
 }
 
-#main2, .B2 {
+#mainContainer, .refloContainer {
     text-align: justify;
 }
 
