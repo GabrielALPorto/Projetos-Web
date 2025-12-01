@@ -1,3 +1,7 @@
+SITUAÇÃO DO PROJETO:
+EM PAUSA. O PROJETO SERVIU PARA INTRODUZIR/RELEMBRAR VÁRIAS TECNOLOGIAS (HTML, CSS, JS, EXPRESS, REST API etc.).
+ESTAREI FOCANDO EM OUTRO PROJETO E VOLTAREI PARA ESSE QUANDO EU ESTIVER MAIS EXPERIENTE
+
 🌳 Replante a Floresta - Projeto Acadêmico
 
 Desenvolvido por Gabriel Augusto como forma de treinamento em HTML, CSS e JavaScript para o curso de Ciência da Computação.
