@@ -1,20 +1,46 @@
-    .header_container{
+    .headerContainer{
         display: flex;
+        flex-direction: row;
         align-items: stretch;
     }
 
     #sidebar{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
+        height: 250px;
         background-color: white;
         width: 60px;
-        border-radius: 0px 0px 0px 0px;
+        border-radius: 10px 10px 10px 10px;
         position: sticky;
-        /*overflow: hidden;*/
         align-items: center;
+        padding: 5px 5px 0px 0px;
+        border-bottom: 0px;
+        border: 2px solid black;
+    }
+
+    #sidebar_content{
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .side_item{
+        display: flex;
+        border-radius: 8px;
         padding: 5px;
-        border: solid ;
+        cursor: pointer;
+    }
+
+    .item_description{
+        display: none;
+        width: 0px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        height: 140%;
     }
 
     #open_btn{
@@ -25,25 +51,9 @@
         z-index: 1000;
     }
 
-    .item_description{
-        display: none;
-        width: 0px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-size: 14px;
-        height: 100%;
-        
-    }
 
     #sidebar.open-sidebar{
         min-width: 15%;
-    }
-
-    .side_item{
-        border-radius: 8px;
-        padding: 14px;
-        cursor: pointer;
     }
 
     .header_content {

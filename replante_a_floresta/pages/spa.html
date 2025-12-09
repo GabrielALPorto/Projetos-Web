@@ -15,48 +15,46 @@
     <title>SPA</title>
 </head>
 <body>
-   <header class="header_container">
+   <header class="headerContainer">
     <!-- Div para a side-bar -->
         <nav id="sidebar">
             <!-- Div para o conteudo da side-bar-->
             <div id="sidebar_content">
                 <!-- Opcoes da side-bar -->
-                <div id="user">
-                    <ul>
-                        <li class="side_item">
-                            <a href="/#" id="side__item--indexButton">
-                                <i class="fa-solid fa-house"></i>
-                                <span class="item_description">
-                                    Página Inicial
-                                </span>
-                            </a>
-                        </li>
-                        <li class="side_item" id="side__itemsobre--Button">
-                            <a href="#sobre">
-                                <i class="fa-solid fa-user-group" ></i>
-                                <span class="item_description">
-                                    Sobre Nós
-                                </span>  
-                            </a>
-                        </li>
-                        <li class="side_item">
-                            <a href="/#projetos">
-                                <i class="fa-solid fa-bars-progress"></i>
-                                <span class="item_description">
-                                    Projetos Desenvolvidos
-                                </span>
-                            </a>
-                        </li>
-                        <li class="side_item">
-                            <a href="/#doacoes">
-                                <i class="fa-solid fa-hands-holding-circle"></i>
+                <ul>
+                    <li class="side_item">
+                        <a href="/#Index" id="side__item--indexButton" onclick="conteudoController(conteudoIndex)">
+                            <i class="fa-solid fa-house"></i>
                             <span class="item_description">
-                                    Como Doar
-                            </span> 
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                                Página Inicial
+                            </span>
+                        </a>
+                    </li>
+                    <li class="side_item">
+                        <a href="#sobre" id="side__itemsobre--Button" onclick="conteudoController(conteudoSobre)">
+                            <i class="fa-solid fa-user-group" ></i>
+                            <span class="item_description">
+                                Sobre Nós
+                            </span>  
+                        </a>
+                    </li>
+                    <li class="side_item">
+                        <a href="/#projetos" onclick="conteudoController(conteudoProjeto)">
+                            <i class="fa-solid fa-bars-progress"></i>
+                            <span class="item_description">
+                                Projetos Desenvolvidos
+                            </span>
+                        </a>
+                    </li>
+                    <li class="side_item">
+                        <a href="/#doacoes" onclick="conteudoController(conteudoDoacoes)">
+                            <i class="fa-solid fa-hands-holding-circle"></i>
+                        <span class="item_description">
+                                Como Doar
+                        </span> 
+                        </a>
+                    </li>
+                <ul>
                 <!-- Botao para abrir/fechar a barra lateral -->
                 <button id="open_btn">
                     <i id="open_btn_icon" class="fa-solid fa-chevron-right"></i>

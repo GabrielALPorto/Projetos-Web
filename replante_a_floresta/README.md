@@ -13,17 +13,13 @@ Desenvolver uma plataforma web completa aplicando os fundamentos de **HTML5**, *
 - [x] **Formulários complexos** com validação nativa
 - [x] **Galeria responsiva** com 10+ imagens
 - [x] **Recursos multimídia** (vídeos e áudio)
-- [x] **Layout responsivo** com meta viewport
+- [ ] **Layout responsivo** com meta viewport
 
 ### 📝 Páginas Desenvolvidas
 1. **Home** (`index.html`) - Página inicial institucional
 2. **Sobre** (`sobre.html`) - História, missão, visão e valores
 3. **Projetos** (`projetos.html`) - Projetos sociais da organização
-4. **Voluntariado** (`voluntariado.html`) - Cadastro de voluntários
-5. **Doações** (`doacoes.html`) - Sistema de doações
-6. **Transparência** (`transparencia.html`) - Prestação de contas
-7. **Contato** (`contato.html`) - Formulários de contato
-8. **Blog/Notícias** (`blog.html`) - Conteúdo institucional
+4. **Doações** (`doacoes.html`) - Sistema de doações
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -39,11 +35,7 @@ replante-a-floresta/
 ├── index.html
 ├── sobre.html
 ├── projetos.html
-├── voluntariado.html
 ├── doacoes.html
-├── transparencia.html
-├── contato.html
-├── blog.html
 └── assets/
     ├── images/
     │   ├── galeria/
@@ -74,11 +66,8 @@ Educação ambiental e vivências florestais para jovens de escolas públicas.
 - [ ] Sistema de design unificado
 
 ### ⏳ Planejado
-- [ ] Gráficos interativos com Canvas
 - [ ] Integração com APIs (ViaCEP, Google Maps)
 - [ ] Validações avançadas com JavaScript
-- [ ] Sistema de newsletter
-- [ ] Otimização de performance
 
 ## 🎓 Contexto Acadêmico
 
@@ -87,7 +76,7 @@ Este projeto faz parte do curso de **Ciência da Computação**, focando na apli
 ### 📚 Competências Demonstradas
 - HTML5 semântico e acessível
 - Formulários complexos com validação
-- Multimídia e elementos gráficos
+- Multimídia
 - Estruturação e organização de projetos
 - Versionamento com Git
 

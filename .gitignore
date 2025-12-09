@@ -1,0 +1,8 @@
+# Ignorando o 
+/DOM_exercises_and_Events/node_modules
+/DOM_exercises_and_Events/package.json
+/DOM_exercises_and_Events/package-lock.json
+node_modules/
+package.json
+package-lock.json
+.json
