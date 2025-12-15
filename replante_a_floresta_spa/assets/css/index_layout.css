@@ -1,0 +1,99 @@
+/* === LAYOUT.CSS === */
+*{
+    box-sizing: border-box;
+}
+/* ESTRUTURAS FLEXBOX */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.img_header{
+    width: 150px;
+    height: 150px;
+}
+
+#mainTitle, #mainContainer, .B1Container, .refloContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#mainContainer, .refloContainer {
+    flex-direction: row;
+}
+
+.B1Container {
+    flex-direction: row;
+}
+
+/* SISTEMA DE GRID/COLUNAS */
+.mainContainer__para, .mainContainer__img, . {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+    min-height: 450px;
+   
+}
+
+.refloContainer__para, .refloContainer__img {
+    width: 50%;
+
+}
+
+#idColunasB2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.content-box1, .content-box2, .content-box3 {
+    width: 33.32%;
+    align-items: center;
+    text-align: center;
+}
+
+/* LAYOUT DE IMAGENS */
+.refloContainer__img picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* ALINHAMENTOS DE TEXTO */
+.projetos__flex-box {
+    text-align: center;
+
+}
+
+.projetos__elementoUM, .projetos__elementoDois, .projetos__elementoTres {
+    text-align: center;
+}
+
+#mainContainer, .refloContainer {
+    text-align: justify;
+}
+
+.footer_title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    min-height: 400px;
+}
