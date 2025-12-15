@@ -5,33 +5,35 @@ Desenvolvido por Gabriel Augusto como forma de treinamento em HTML, CSS e JavaSc
 
 O Replante a Floresta é uma organização não-governamental fictícia dedicada à recuperação de áreas florestais degradadas através do reflorestamento participativo e engajamento comunitário. Este repositório contém duas versões do site institucional:
 📁 Estrutura Atual do Repositório
-text
+### 📁 Estrutura do Repositório
 
+```
 projetos-web/
-├── replante-a-floresta/           # 🎯 Versão Clássica (Multi-páginas)
-│   ├── index.html                 # Página inicial
-│   ├── sobre.html                 # Sobre a organização
-│   ├── projetos.html              # Projetos sociais
-│   ├── doacoes.html               # Sistema de doações
-│   └── assets/                    # Recursos estáticos
+├── replante-a-floresta/           # Versão Clássica
+│   ├── index.html
+│   ├── sobre.html
+│   ├── projetos.html
+│   ├── doacoes.html
+│   └── assets/
 │       ├── css/
 │       ├── js/
 │       ├── imagens/
 │       ├── videos/
 │       └── audio/
 │
-├── replante-a-floresta-spa/       # ⚡ Versão SPA (Em Desenvolvimento)
-│   ├── index.html                 # Single Page Application
+├── replante-a-floresta-spa/       # Versão SPA
+│   ├── index.html
 │   ├── assets/
-│   │   ├── css/                   # Estilos organizados
-│   │   ├── js/                    # Lógica MVC
+│   │   ├── css/
+│   │   ├── js/
 │   │   └── imagens/
-│   └── README.md                  # Documentação SPA
+│   └── README.md
 │
-├── DOM_exercises_and_events/      # 💻 Exercícios práticos
+├── DOM_exercises_and_events/      # Exercícios
 │   └── (exercícios de JavaScript)
 │
-└── README.md                      # Este arquivo
+└── README.md
+```
 
 🎯 Objetivos do Projeto
 📚 Acadêmicos
