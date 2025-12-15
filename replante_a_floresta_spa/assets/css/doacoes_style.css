@@ -1,0 +1,94 @@
+*{
+    font-family: var(--fonte);
+}
+
+body{
+    background-color: var(--bege-natural);
+}
+.header{
+    background-image: url("../imagens/usada_header_gettyimages-1325062494-640x640.jpg");
+    height: 250px;
+    width: 100%;
+
+}
+
+.main2{
+    border-radius: 10px;
+    font-size: var(--fonte-secao);
+    background-color: var(--verde-claro);
+}
+
+.header img {
+    max-width: 150px; /* ← AJUSTE CONFORME SUA IMAGEM */
+}
+
+.main1{
+    background-color: var(--bege-natural);
+    font-size: var(--fonte-corpo);
+    
+}
+
+.titulo_main1{
+    font-size: var(--fonte-secao);
+    
+}
+
+.titulo_main2, .titulo_main3{
+    font-size: var(--fonte-secao);
+    background-color: var(--verde-claro);
+    min-width: 200px;
+    max-width: 400px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.doacoes{
+    color: var(--branco);
+    height: 238.8px;
+    width: auto;
+    font-size: var(--fonte-corpo);
+}
+
+#doacao_unica{
+    background-color: var(--verde-principal);
+}
+
+#doacao_recorrente{
+    background-color: var(--marrom-escuro);
+}
+
+#doacao_direcionada{
+    background-color: var(--verde-principal);
+}
+
+.box_main2{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.box_main2 ul{
+    line-height: var(--espaco-lg);
+    font-size: var(--fonte-secao);
+}
+
+.cadastrar{
+    background-color: var(--bege-natural);
+}
+
+.voluntariado{
+    background-color: var(--verde-claro);
+}
+
+.titulo_voluntariado{
+    font-size: var(--fonte-subtitulo);
+    min-height: 40px;
+}
+
+.beneficios_voluntariado{
+    font-size: var(--fonte-secao);
+}
+
+.titulo_cadastrar{
+    font-size: var(--fonte-subtitulo);
+}
