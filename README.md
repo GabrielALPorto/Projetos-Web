@@ -1,92 +1,224 @@
-# O Seguinte Projeto está sendo Realizado por Gabriel Augusto como forma de treinamento de HTML, CSS e JS
-## 📋 Projeto Replante a Floresta
+🌳 Replante a Floresta - Projeto Acadêmico
 
-O **Replante a Floresta** é uma organização não-governamental dedicada à recuperação de áreas florestais degradadas através do reflorestamento participativo e engajamento comunitário. Este projeto consiste no desenvolvimento do site institucional da organização.
+Desenvolvido por Gabriel Augusto como forma de treinamento em HTML, CSS e JavaScript para o curso de Ciência da Computação.
+📋 Sobre o Projeto
 
-### 🎯 Objetivo do Projeto Acadêmico
-Desenvolver uma plataforma web completa aplicando os fundamentos de **HTML5**, **CSS3** e **JavaScript**, demonstrando domínio em estrutura semântica, formulários complexos, recursos multimídia e visualizações de dados.
+O Replante a Floresta é uma organização não-governamental fictícia dedicada à recuperação de áreas florestais degradadas através do reflorestamento participativo e engajamento comunitário. Este repositório contém duas versões do site institucional:
+📁 Estrutura Atual do Repositório
+text
 
-## 🚀 Funcionalidades Implementadas
+projetos-web/
+├── replante-a-floresta/           # 🎯 Versão Clássica (Multi-páginas)
+│   ├── index.html                 # Página inicial
+│   ├── sobre.html                 # Sobre a organização
+│   ├── projetos.html              # Projetos sociais
+│   ├── doacoes.html               # Sistema de doações
+│   └── assets/                    # Recursos estáticos
+│       ├── css/
+│       ├── js/
+│       ├── imagens/
+│       ├── videos/
+│       └── audio/
+│
+├── replante-a-floresta-spa/       # ⚡ Versão SPA (Em Desenvolvimento)
+│   ├── index.html                 # Single Page Application
+│   ├── assets/
+│   │   ├── css/                   # Estilos organizados
+│   │   ├── js/                    # Lógica MVC
+│   │   └── imagens/
+│   └── README.md                  # Documentação SPA
+│
+├── DOM_exercises_and_events/      # 💻 Exercícios práticos
+│   └── (exercícios de JavaScript)
+│
+└── README.md                      # Este arquivo
 
-### ✅ Concluídas (HTML5)
-- [x] **Estrutura HTML5 semântica** com 8 páginas
-- [x] **Formulários complexos** com validação nativa
-- [x] **Galeria responsiva** com 10+ imagens
-- [x] **Recursos multimídia** (vídeos e áudio)
-- [ ] **Layout responsivo** com meta viewport
+🎯 Objetivos do Projeto
+📚 Acadêmicos
 
-### 📝 Páginas Desenvolvidas
-1. **Home** (`index.html`) - Página inicial institucional
-2. **Sobre** (`sobre.html`) - História, missão, visão e valores
-3. **Projetos** (`projetos.html`) - Projetos sociais da organização
-4. **Doações** (`doacoes.html`) - Sistema de doações
+    Aplicar fundamentos de HTML5, CSS3 e JavaScript
 
-## 🛠️ Tecnologias Utilizadas
+    Demonstrar domínio em estrutura semântica e acessibilidade
 
-### 🔷 Frontend
-- **HTML5** - Estrutura semântica
-- **CSS3** - Estilização (em desenvolvimento)
-- **JavaScript** - Interatividade (próxima fase)
-- **Canvas API** - Visualizações gráficas (futuramente)
+    Implementar formulários complexos com validação
 
-### 📁 Estrutura do Projeto
-```
-replante-a-floresta/
-├── index.html
-├── sobre.html
-├── projetos.html
-├── doacoes.html
-└── assets/
-    ├── images/
-    │   ├── galeria/
-    │   ├── logos/
-    │   └── icons/
-    ├── css/
-    ├── js/
-    ├── videos/
-    └── audio/
-```
+    Trabalhar com recursos multimídia
 
-## 🌟 Projetos Sociais
+🛠️ Técnicos
 
-### 1. **Raízes da Comunidade**
-Reflorestamento com geração de renda para populações locais através de capacitação em produção de mudas nativas.
+    Desenvolver duas abordagens diferentes:
 
-### 2. **Corredores da Vida**  
-Restauração e conexão de fragmentos florestais isolados, permitindo o movimento da fauna e fluxo gênico.
+        Site tradicional multi-páginas (concluído)
 
-### 3. **Sementes do Saber**
-Educação ambiental e vivências florestais para jovens de escolas públicas.
+        Single Page Application - SPA (em desenvolvimento)
 
-## 📊 Próximas Etapas
+    Praticar versionamento com Git/GitHub
 
-### 🔄 Em Desenvolvimento
-- [ ] Implementação do CSS para estilização
-- [ ] Design responsivo e acessível
-- [ ] Sistema de design unificado
+    Implementar padrões de projeto (MVC)
 
-### ⏳ Planejado
-- [ ] Integração com APIs (ViaCEP, Google Maps)
-- [ ] Validações avançadas com JavaScript
+📊 Status dos Projetos
+🚧 replante-a-floresta/ (Versão Clássica - EM DESENVOLVIMENTO)
 
-## 🎓 Contexto Acadêmico
+    Estrutura HTML5 semântica com 4 páginas
 
-Este projeto faz parte do curso de **Ciência da Computação**, focando na aplicação prática dos fundamentos de desenvolvimento web frontend aprendidos na disciplina.
+    Formulários complexos com validação nativa
 
-### 📚 Competências Demonstradas
-- HTML5 semântico e acessível
-- Formulários complexos com validação
-- Multimídia
-- Estruturação e organização de projetos
-- Versionamento com Git
+    Galeria responsiva com imagens otimizadas
 
-## 📞 Contato
+    Recursos multimídia (vídeos e áudio)
 
-**Organização:** Replante a Floresta (Fictícia)
-**Desenvolvedor:** Gabriel Augusto  
-**Curso:** Ciência da Computação  
-**Email:** gabriellyra46@gmail.com
+    Layout responsivo com CSS3
 
-## 📄 Licença
+    Validação JavaScript avançada
 
-Este projeto é desenvolvido para fins acadêmicos e não possui fins lucrativos.
+🚧 replante-a-floresta-spa/ (Versão SPA - EM DESENVOLVIMENTO)
+
+    Estrutura base da SPA
+
+    Sidebar interativa com animações
+
+    Sistema de navegação client-side
+
+    Arquitetura MVC (Model-View-Controller) (futuramente)
+
+    Roteamento completo
+
+    Animações de transição
+
+    Otimização de performance
+
+    PWA (Progressive Web App)
+
+💻 DOM_exercises_and_events/ (Exercícios)
+
+    Manipulação do DOM
+
+    Event listeners
+
+    Validação de formulários
+
+    Animações CSS/JS
+
+🛠️ Tecnologias Utilizadas
+🔷 Frontend Básico
+
+    HTML5 - Estrutura semântica e acessibilidade
+
+    CSS3 - Flexbox, Grid, animações, variáveis CSS
+
+    JavaScript ES6+ - Vanilla JS
+
+    Express - Node.js (em andamento)
+
+⚡ Arquitetura SPA (Futuramente)
+
+    Padrão MVC - Separação de responsabilidades
+
+    Roteamento Client-side - Navegação sem recarregamento
+
+    Event Delegation - Gestão eficiente de eventos
+
+    Local Storage - Persistência de dados local
+
+🔧 Ferramentas
+
+    Git - Controle de versão
+
+    GitHub - Hospedagem e colaboração
+
+    Font Awesome - Ícones
+
+    Google Fonts - Tipografia (se aplicável)
+
+📚 Contexto Acadêmico
+
+Este projeto faz parte do curso de Ciência da Computação da Cruzeiro do Sul, focando na aplicação prática dos fundamentos de desenvolvimento web frontend.
+Competências Demonstradas
+
+    ✅ Estruturação semântica HTML5
+
+    ✅ Estilização avançada com CSS3
+
+    ✅ JavaScript para interatividade
+
+    ✅ Validação de formulários
+
+    ✅ Responsividade e acessibilidade
+
+    ✅ Versionamento com Git
+
+    ✅ Arquitetura de software (MVC)
+
+    ✅ Single Page Applications
+
+🚀 Como Executar
+Versão Clássica (Concluída)
+bash
+
+# Navegue até a pasta
+cd replante-a-floresta/
+
+# Abra no navegador
+open index.html  # macOS
+start index.html # Windows
+xdg-open index.html  # Linux
+
+Versão SPA (Em Desenvolvimento)
+bash
+
+cd replante-a-floresta-spa/
+python -m http.server 8000  # Servidor local
+# Acesse: http://localhost:8000
+
+📈 Próximos Passos
+
+Para a Versão MPA
+    
+    Adicionar Express - Controle das rotas entre seções
+
+Para a Versão SPA
+
+    Implementar roteamento completo - Navegação entre seções
+
+    Adicionar transições - Animações entre "páginas"
+
+    Otimizar performance - Lazy loading, cache
+
+Melhorias Gerais
+
+    Backend API - Para dados dinâmicos
+
+    Sistema de login - Para voluntários
+
+    Dashboard admin - Gerenciamento de conteúdo
+
+    Blog integrado - Notícias e atualizações
+
+🤝 Contribuição
+
+Este é um projeto acadêmico, mas sugestões são bem-vindas:
+
+    Fork o projeto
+
+    Crie uma branch (git checkout -b feature/NovaFuncionalidade)
+
+    Commit suas mudanças (git commit -m 'Adiciona: NovaFuncionalidade')
+
+    Push para a branch (git push origin feature/NovaFuncionalidade)
+
+    Abra um Pull Request
+
+📞 Contato
+
+Desenvolvedor: Gabriel Augusto
+Curso: Ciência da Computação - Cruzeiro do Sul
+Email: gabriellyra46@gmail.com
+GitHub: @GabrielALPorto
+
+Organização: Replante a Floresta (Fictícia)
+Propósito: Projeto acadêmico para fins educacionais
+📄 Licença
+
+Este projeto é desenvolvido para fins acadêmicos e não possui fins lucrativos. Todo o conteúdo é fictício e criado exclusivamente para aprendizado.
+<div align="center"> <sub>Desenvolvido com ❤️ e ☕ durante o curso de Ciência da Computação</sub><br> <sub>🌱 Cada commit é uma árvore plantada no conhecimento</sub> </div>
+
